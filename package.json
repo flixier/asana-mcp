@@ -1,0 +1,21 @@
+{
+  "name": "@flixier/asana-mcp",
+  "version": "1.0.0",
+  "description": "Minimal read-only MCP server exposing Asana task context for Claude Code reviews",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "asana-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
